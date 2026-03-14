@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Clinic Queue</title>
+</head>
+<body>
+
+<h1>Clinic Waiting List</h1>
+
+<a href="/add">Register Patient</a>
+<br><br>
+
+<h3>Patients Waiting:</h3>
+
+<ul>
+{% for patient in queue %}
+<li>{{ patient.display() }}</li>
+{% endfor %}
+</ul>
+
+<h3>Total Patients Seen Today: {{ total_seen }}</h3>
+
+<a href="/next">Call Next Patient</a>
+
+</body>
+</html>
