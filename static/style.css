@@ -32,4 +32,5 @@ button:hover {
 h1 {
     color: blue:#0056b3;
     font-size: 36px;
+    font-weight: bold;
 }
