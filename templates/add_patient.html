@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   <title>Add Patient</title>
 </head>
 <body>
 
-<h1>Register New Patient</h1>
+  <div class="container">
+    <h1>Register New Patient</h1>
 
-<form method="POST" action="/add_patient">
-  <label for="name">Patient Name:</label>
-  <input type="text" id="name" name="name" placeholder="Patient Name" required>
-  <button type="submit">Register</button>
-</form>
+    <form method="POST" action="/add_patient">
+      <label for="name">Patient Name:</label>
+      <input type="text" id="name" name="name" placeholder="Patient Name" required>
+      <button type="submit">Register</button>
+    </form>
 
-<br>
-<a href="/">Back</a>
+    <br>
+    <a href="/">Back</a>
+  </div>
 
 </body>
 </html>
