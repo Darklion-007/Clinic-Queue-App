@@ -9,6 +9,15 @@ body {
     height: 100vh;
 
 }
+
+.container {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+
+
+ }
+
 form {
     background: white;
     padding: 20px;
