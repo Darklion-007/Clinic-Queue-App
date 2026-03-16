@@ -34,8 +34,15 @@ body {
     display: inline-block;
     margin: 0.5rem 0;
     transition: color 0.3s ease;
-    
+
  }
+
+ a:hover {
+    color:#2575fc;
+    text-decoration: underline;
+}
+
+
 
 form {
     background: white;
