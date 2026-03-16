@@ -85,13 +85,12 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 100%;
-
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: #1a52d1;
 }
 h1 {
-    color: blue:#007bff;
+    color: #007bff;
     font-size: 36px;
     font-weight: bold;
 }
